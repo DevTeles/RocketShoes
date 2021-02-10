@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Cart from './pages/Cart';
-import Users from './pages/Users';
 
 export default function Routes() {
   return (
@@ -11,7 +10,6 @@ export default function Routes() {
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />
       <Route path="/cart" component={Cart} />
-      <Route path="/users" component={Users} />
     </Switch>
   );
 }
